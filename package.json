@@ -1,14 +1,14 @@
 {
-  "name": "typescript-module-template",
+  "name": "@owsas/responsive",
   "version": "1.0.0",
-  "description": "A typescript boilerplate to publish modules to npm",
+  "description": "Validators to detect if you are running on big or small screens",
   "main": "out/index.js",
   "types": "out/index.d.ts",
   "scripts": {
     "test": "jest --ci --silent",
     "build": "tsc",
     "watch": "tsc -w",
-    "prepublish": "tsc"
+    "prepublishOnly": "tsc"
   },
   "keywords": [],
   "author": "Juan Camilo Guarín P",
@@ -46,10 +46,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/owsas/typescript-module-template.git"
+    "url": "git+https://github.com/owsas/responsive.git"
   },
   "bugs": {
-    "url": "https://github.com/owsas/typescript-module-template/issues"
+    "url": "https://github.com/owsas/responsive/issues"
   },
-  "homepage": "https://github.com/owsas/typescript-module-template#readme"
+  "homepage": "https://github.com/owsas/responsive#readme"
 }
