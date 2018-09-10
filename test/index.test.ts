@@ -85,3 +85,14 @@ describe('#isDesktop', () => {
     expect(Responsive.isDesktop(1200)).toBe(true);
   });
 });
+
+describe('Setting new breakpoints', () => {
+  test('should detect the new breakpoints ok', () => {
+    Responsive.setBreakpoints({ xs: 100, sm: 200, md: 1200 });
+    expect(Responsive.isXs(100)).toBe(true);
+    expect(Responsive.isSm(150)).toBe(true);
+    expect(Responsive.isSm(200)).toBe(true);
+    expect(Responsive.isMd(1000)).toBe(true);
+    expect(Responsive.isMd(1900)).toBe(false);
+  });
+});
