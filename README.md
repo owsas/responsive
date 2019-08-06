@@ -1,3 +1,4 @@
+# Migrated to new monorepo approach: https://github.com/owsas/opensource
 # @owsas/responsive
 
 Validators to detect if you are running on big or small screens, using a similar approach to Bootstrap, defining `xs`, `sm`, `md` or `lg` screen breakpoints.
